@@ -1,3 +1,22 @@
+/* Dark Mode Variables */
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --header-bg: rgba(255, 255, 255, 0.95);
+    --card-bg: white;
+    --input-bg: white;
+    --border-color: #ddd;
+}
+
+/* Dark Mode Class */
+.dark-mode {
+    --bg-color: #1a1a2e;
+    --text-color: #e0e0e0;
+    --header-bg: rgba(30, 30, 50, 0.95);
+    --card-bg: #16213e;
+    --input-bg: #0f3460;
+    --border-color: #444;
+}
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -7,19 +26,22 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--bg-color);
+    color: var(--text-color);
     min-height: 100vh;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
 }
 
 /* Header Section */
 header {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--header-bg);
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: background 0.3s;
 }
-
 header h1 {
     color: #FF6B35;
     font-size: 3em;
@@ -44,13 +66,14 @@ header p {
 }
 
 .search-box {
-    background: white;
+    background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
     text-align: center;
     width: 100%;
     max-width: 400px;
+    transition: background 0.3s;
 }
 
 .search-box h3 {
@@ -63,10 +86,12 @@ input {
     width: 100%;
     padding: 12px;
     font-size: 16px;
-    border: 2px solid #ddd;
+    background: var(--input-bg);
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
     border-radius: 8px;
     margin-bottom: 15px;
-    transition: border-color 0.3s;
+    transition: all 0.3s;
 }
 
 input:focus {
@@ -92,9 +117,10 @@ button:hover {
 
 /* Category Section */
 .category-section {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--header-bg);
     padding: 40px 20px;
     text-align: center;
+    transition: background 0.3s;
 }
 
 .category-section h2 {
@@ -142,12 +168,12 @@ button:hover {
 
 /* Recipe Cards */
 .recipe-card {
-    background: white;
+    background: var(--card-bg);
     border-radius: 15px;
     overflow: hidden;
     width: 300px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    transition: transform 0.3s;
+    transition: transform 0.3s, background 0.3s;
 }
 
 .recipe-card:hover {
@@ -178,12 +204,13 @@ button:hover {
 
 /* Recipe Detail View */
 .recipe-detail {
-    background: white;
+    background: var(--card-bg);
     padding: 40px;
     border-radius: 15px;
     max-width: 800px;
     margin: 0 auto;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    transition: background 0.3s;
 }
 
 .recipe-detail h2 {
@@ -305,4 +332,15 @@ button:hover {
 
 .random-btn:hover {
     background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%);
+}
+/* Dark Mode Toggle Button */
+.dark-mode-btn {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    margin: 10px;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.dark-mode-btn:hover {
+    background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
 }
