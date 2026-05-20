@@ -5,7 +5,7 @@ const nigerianRecipes = [
         strMeal: "Jollof Rice",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        strMealThumb: "https://i.pinimg.com/736x/fc/6c/cf/fc6ccf6314f207173840e9e368cc20b0.jpg",
         strInstructions: "1. Blend tomatoes, peppers, and onions into a smooth paste.\n2. Heat oil in a pot and fry the paste for 10 minutes.\n3. Add tomato paste, curry, thyme, and seasoning cubes.\n4. Add washed rice and stir well.\n5. Add water or stock, cover and cook on low heat for 30 minutes.\n6. Stir occasionally until rice is soft and fluffy.\n7. Serve with fried plantains and chicken.",
         strIngredient1: "Rice",
         strMeasure1: "3 cups",
@@ -33,7 +33,7 @@ const nigerianRecipes = [
         strMeal: "Egusi Soup",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529445863.jpg",
+        strMealThumb: "https://i1-e.pinimg.com/1200x/0f/5b/d2/0f5bd267d61559281921fe0c64bc56f5.jpg",
         strInstructions: "1. Grind the egusi seeds into a coarse powder.\n2. Heat palm oil in a pot and fry the ground egusi for 5 minutes.\n3. Add chopped onions and fry for 2 minutes.\n4. Add stock, crayfish, and seasoning cubes.\n5. Add washed bitterleaf or spinach.\n6. Add cooked meat and fish.\n7. Simmer for 15 minutes, stirring occasionally.\n8. Serve with pounded yam or fufu.",
         strIngredient1: "Egusi Seeds",
         strMeasure1: "2 cups",
@@ -61,7 +61,7 @@ const nigerianRecipes = [
         strMeal: "Pounded Yam",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        strMealThumb: "https://i1-e.pinimg.com/736x/aa/48/57/aa485713ae0a4476f243ca7d3e48f994.jpg",
         strInstructions: "1. Peel and cut yam into small chunks.\n2. Wash thoroughly and place in a pot.\n3. Add water and boil for 20-25 minutes until soft.\n4. Drain water and transfer to a mortar.\n5. Pound with a pestle until smooth and stretchy.\n6. Add small water while pounding if too thick.\n7. Continue until no lumps remain.\n8. Serve hot with egusi soup or vegetable soup.",
         strIngredient1: "Yam",
         strMeasure1: "1kg",
@@ -73,7 +73,7 @@ const nigerianRecipes = [
         strMeal: "Akara (Bean Cakes)",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529445863.jpg",
+        strMealThumb: "https://i1-e.pinimg.com/1200x/75/aa/b5/75aab5624065c33c646ff90772359a26.jpg",
         strInstructions: "1. Soak beans in water for 30 minutes.\n2. Peel off the skin by rubbing between hands.\n3. Blend peeled beans with peppers and onions into a smooth paste.\n4. Whisk the paste vigorously to incorporate air.\n5. Heat oil in a deep pan.\n6. Scoop paste with a spoon and fry in hot oil.\n7. Fry until golden brown on both sides.\n8. Drain on paper towels and serve with pap or bread.",
         strIngredient1: "Black Eyed Beans",
         strMeasure1: "2 cups",
@@ -91,7 +91,7 @@ const nigerianRecipes = [
         strMeal: "Moi Moi (Bean Pudding)",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        strMealThumb: "https://i1-e.pinimg.com/736x/26/71/b6/2671b6a13a158fbe971b1e53a9bc9da8.jpg",
         strInstructions: "1. Peel beans by soaking and rubbing off skins.\n2. Blend beans with peppers, onions, and crayfish.\n3. Add vegetable oil, seasoning, and salt.\n4. Mix in chopped boiled eggs and fish.\n5. Wrap in banana leaves or foil.\n6. Steam in a pot with water for 45 minutes.\n7. Check with toothpick - should come out clean.\n8. Serve with jollof rice or custard.",
         strIngredient1: "Black Eyed Beans",
         strMeasure1: "3 cups",
@@ -115,7 +115,7 @@ const nigerianRecipes = [
         strMeal: "Efo Riro (Vegetable Soup)",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529445863.jpg",
+        strMealThumb: "https://i.pinimg.com/736x/26/31/58/26315897d70247572e800a49ab383bca.jpg",
         strInstructions: "1. Wash and chop spinach or ugwu leaves.\n2. Blend tomatoes, peppers, and onions.\n3. Heat palm oil and fry the blended mixture.\n4. Add locust beans (iru), crayfish, and seasoning.\n5. Add cooked meat and stock.\n6. Simmer for 10 minutes.\n7. Add chopped vegetables and stir.\n8. Cook for 5 more minutes and serve with rice or swallow.",
         strIngredient1: "Spinach",
         strMeasure1: "4 cups",
@@ -141,7 +141,7 @@ const nigerianRecipes = [
         strMeal: "Suya (Spicy Grilled Meat)",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        strMealThumb: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=500",
         strInstructions: "1. Cut beef into thin strips.\n2. Mix groundnut powder, pepper, ginger, and seasoning.\n3. Rub the spice mix all over the meat.\n4. Thread meat onto skewers.\n5. Grill over charcoal or in oven for 15-20 minutes.\n6. Turn occasionally and brush with oil.\n7. Serve hot with onions and tomatoes.",
         strIngredient1: "Beef",
         strMeasure1: "500g",
@@ -165,7 +165,7 @@ const nigerianRecipes = [
         strMeal: "Pepper Soup",
         strCategory: "Nigerian",
         strArea: "Nigerian",
-        strMealThumb: "https://www.themealdb.com/images/media/meals/1529445863.jpg",
+        strMealThumb: "https://i1-e.pinimg.com/736x/e4/97/e7/e497e7692d5add9bf48d734c3780bcf7.jpg",
         strInstructions: "1. Wash goat meat or fish thoroughly.\n2. Put in a pot with water and bring to boil.\n3. Add pepper soup spice mix, pepper, and onions.\n4. Add seasoning cubes and salt.\n5. Simmer for 30-40 minutes until meat is tender.\n6. Add scent leaves or basil in last 5 minutes.\n7. Serve hot as appetizer or with rice.",
         strIngredient1: "Goat Meat",
         strMeasure1: "500g",
@@ -244,7 +244,7 @@ function displayRecipes(meals) {
             <h3>${meal.strMeal}</h3>
             <p>${meal.strCategory}</p>
             <div class="card-buttons">
-                <button onclick="showDetails('${meal.idMeal}')">View Recipe</button>
+                            <button onclick="${meal.idMeal.startsWith('NG') ? 'showNigerianDetails' : 'showDetails'}('${meal.idMeal}')">View Recipe</button>
                 <button onclick="toggleSave('${meal.idMeal}', '${meal.strMeal}', '${meal.strMealThumb}', '${meal.strCategory}')" class="save-btn" id="save-${meal.idMeal}">
                     ${heartIcon} Save
                 </button>
@@ -587,3 +587,37 @@ function printRecipe() {
     
     printWindow.document.close();
 }
+// Dark Mode Toggle Function
+function toggleDarkMode() {
+    let body = document.body;
+    let btn = document.getElementById('darkModeBtn');
+    
+    body.classList.toggle('dark-mode');
+    
+    // Check if dark mode is active
+    if (body.classList.contains('dark-mode')) {
+        btn.innerHTML = '☀️ Light Mode';
+        // Save preference
+        localStorage.setItem('darkMode', 'enabled');
+    } else {
+        btn.innerHTML = '🌙 Dark Mode';
+        // Save preference
+        localStorage.setItem('darkMode', 'disabled');
+    }
+}
+
+// Check for saved dark mode preference on page load
+function checkDarkMode() {
+    let darkMode = localStorage.getItem('darkMode');
+    let btn = document.getElementById('darkModeBtn');
+    
+    if (darkMode === 'enabled') {
+        document.body.classList.add('dark-mode');
+        if (btn) {
+            btn.innerHTML = '☀️ Light Mode';
+        }
+    }
+}
+
+// Run check when page loads
+document.addEventListener('DOMContentLoaded', checkDarkMode);
